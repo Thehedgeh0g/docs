@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+service nginx start
+php-fpm
+indexer books --config legacy/config/library.sphinx.conf.in --rotate
+searchd --config legacy/config/library.sphinx.conf.in

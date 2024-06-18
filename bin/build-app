@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+while getopts "m:" opt; do
+  case ${opt} in
+  m ) mode="$OPTARG" ;;
+  esac
+done
+
+USER_ID=$(id -u)
+USER_GROUP=$(id -g)
+
+docker run -it --rm -v "$PWD":/var/www/html -u "$USER_ID:$USER_GROUP" -w "/var/www/html/" --name editor-builder editor-builder bash -c "docker/builder/build-app.sh -m $mode"
+docker build -t editor-app -f docker/app/Dockerfile .
