@@ -1,5 +1,5 @@
-baseURL: https://thehedgeh0g.github.io/docs/
-title: Goldydocs
+baseURL: https://thehedgeh0g.github.io/
+title: iSpring Docs
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -37,7 +37,7 @@ pygmentsStyle: tango
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: iSpring Docs
     params:
       description: A Docsy example site
 

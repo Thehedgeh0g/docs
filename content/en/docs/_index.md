@@ -1,7 +1,6 @@
 ---
-title: Documentation
-linkTitle: Docs
-menu: {main: {weight: 0}}
+title: Documentation-page
+weight: 1
 ---
 
 {{% pageinfo %}}

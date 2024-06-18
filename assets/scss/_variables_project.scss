@@ -4,3 +4,36 @@ Add styles or override variables from the theme here.
 
 */
 
+$primary: #114711;
+$google_font_name: 'Oswald';
+$google_font_family: 'Oswald:300,300i,400,400i,700,700i';
+
+
+.content {
+  background-color: #00ff00;
+  padding: 20px;
+  text-align: center;
+  font-family: "Tibetan Machine Uni", emoji;
+}
+
+.navbar-dark {
+  background-color: #00ff00;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #00ff00;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  background-color: #00ff00;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
