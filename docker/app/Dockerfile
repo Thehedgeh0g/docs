@@ -14,4 +14,4 @@ COPY --chown=www-data:www-data ./config/php/xdebug.ini /usr/local/etc/php/conf.d
 
 WORKDIR /usr/local/www/docs/hugo_pages_editor
 
-ENTRYPOINT ["/usr/local/www/library/bin/docker-entrypoint"]
+ENTRYPOINT ["/usr/local/www/docs/hugo_pages_editor/bin/docker-entrypoint"]
