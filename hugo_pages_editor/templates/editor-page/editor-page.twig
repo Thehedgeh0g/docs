@@ -1,0 +1,37 @@
+{% extends "base.html.twig" %}
+
+
+{% block title %}
+    Редактирование
+{% endblock %}
+
+{% block javascripts %}
+<style>
+    #markdown-content {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/js/EditorPageScripts.js" defer></script>
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+
+{% block body %}
+    <div style="display: flex; justify-content: center; flex-direction: column">
+        <label for="markdown-path"><input id="markdown-path" style="display: flex; justify-content: center" value="{{ path }}"></label>
+        <div style="display: flex; justify-content: center; flex-direction: row">
+            <label style="width: 40%; height: 80vh; margin-left: 7%; margin-top: 10px">
+                <textarea id="markdown-input" style="resize: none; width: 100%; height: 100%;">{{ data }}</textarea>
+            </label>
+            <div style="width: 40%; height: 78vh; margin-left: 3%; margin-top: 10px; overflow: auto" id="markdown-content"></div>
+            <script>
+            </script>
+        </div>
+        <button onclick="save()">save</button>
+    </div>
+    <input style="visibility: hidden" id="original-path" value="{{ path }}">
+{% endblock %}

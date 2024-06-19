@@ -1,0 +1,9 @@
+edit:
+  path: /edit
+  methods: GET
+  controller: App\Controller\EditorController::edit
+
+save:
+  path: /api/save
+  methods: POST
+  controller: App\Controller\EditorController::save
