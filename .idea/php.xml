@@ -10,9 +10,137 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/composer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/asset-mapper" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/ux-turbo" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/hugo_pages_editor/vendor/symfony/security-core" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/hugo_pages_editor/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/hugo_pages_editor/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
