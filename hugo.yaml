@@ -61,7 +61,7 @@ outputs:
   section: [HTML, print, RSS]
 
 params:
-  editBaseURL: "http://localhost:9001/edit?path="
+  editBaseURL: "http://http://playground.ispring.lan/edit/edit?path="
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]
