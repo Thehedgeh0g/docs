@@ -1,4 +1,4 @@
-FROM harbor.ispring.lan/vendor/php:8.1.13-fpm-buster
+FROM php:8.1.13-fpm-buster
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 

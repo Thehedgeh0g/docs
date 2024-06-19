@@ -1,4 +1,4 @@
-FROM harbor.ispring.lan/vendor/php:8.1.13-cli-buster
+FROM php:8.1.13-cli-buster
 
 ADD --chmod=+x docker/builder/docker-setup.sh /usr/bin/docker-setup.sh
 
