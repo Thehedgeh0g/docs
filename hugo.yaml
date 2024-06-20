@@ -62,7 +62,7 @@ outputs:
 
 params:
   editBaseURL: "http://playground.ispring.lan/edit?path="
-  deleteBaseURL: "http://localhost:9001/api/delete?path="
+  deleteBaseURL: "http://playground.ispring.lan/api/delete?path="
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]
