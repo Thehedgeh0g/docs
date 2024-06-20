@@ -11,6 +11,13 @@
         border: 1px solid #ccc;
         padding: 10px;
     }
+
+    pre {
+        word-wrap: normal;
+        border: solid;
+        border-width: 1px;
+        padding: 1rem;
+    }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/EditorPageScripts.js" defer></script>
@@ -22,12 +29,26 @@
 
 {% block body %}
     <div style="display: flex; justify-content: center; flex-direction: column">
-        <label for="markdown-path"><input id="markdown-path" style="display: flex; justify-content: center" value="{{ path }}"></label>
-        <div style="display: flex; justify-content: center; flex-direction: row">
-            <label style="width: 40%; height: 80vh; margin-left: 7%; margin-top: 10px">
-                <textarea id="markdown-input" style="resize: none; width: 100%; height: 100%;">{{ data }}</textarea>
+        <div style="display: flex; justify-content: center; font-size: 36px">
+            <span style="margin-left: 15%;">Page Url:</span>
+            <label for="markdown-path" >
+                <input id="markdown-path" style="display: flex; justify-content: center; border: none" value="{{ path }}">
             </label>
-            <div style="width: 40%; height: 78vh; margin-left: 3%; margin-top: 10px; overflow: auto" id="markdown-content"></div>
+        </div>
+        <div style="display: flex; justify-content: center; flex-direction: row">
+            <label style="width: 40%; height: 80vh; margin-top: 10px">
+                <textarea
+                        id="markdown-input"
+                        style="
+                            resize: none;
+                            width: 100%;
+                            height: 100%;
+                            font-family: 'JetBrains Mono', monospace;
+                            font-optical-sizing: auto;
+                            font-style: normal;"
+            >{{ data }}</textarea>
+            </label>
+            <div style="width: 40%; height: 80vh; margin-left: 3%; margin-top: 10px; overflow: auto" id="markdown-content"></div>
             <script>
             </script>
         </div>

@@ -18,4 +18,9 @@ class EditorService
         }
         file_put_contents(__DIR__ . '/../../../../content/en' . $path . '.md', $content);
     }
+
+    public function deleteFile(string $path): void
+    {
+        unlink(__DIR__ . '/../../../../content/en' . $path . '.md');
+    }
 }

@@ -33,7 +33,15 @@ class EditorController extends AbstractController
             }
             catch (\Throwable)
             {
-                return new JsonResponse(['message' => 'not found'], Response::HTTP_NOT_FOUND);
+                try
+                {
+                    $data .= "/_index";
+                    $fileData = $this->editorService->getFileData($data);
+                }
+                catch (\Throwable)
+                {
+                    return new JsonResponse(['message' => 'not found'], Response::HTTP_NOT_FOUND);
+                }
             }
         }
 
@@ -53,5 +61,17 @@ class EditorController extends AbstractController
 
         $this->editorService->saveNewFileData($data['path'], $data['content'], $data['originalPath']);
         return new JsonResponse(['message' => 'saved'], Response::HTTP_OK);
+    }
+
+    public function delete(Request $request): Response
+    {
+        $data = json_decode($request->getContent(), true);
+        if (!isset($data['path']))
+        {
+            return new JsonResponse(['message' => 'not found'], Response::HTTP_BAD_REQUEST);
+        }
+
+        $this->editorService->deleteFile($data['path']);
+        return new JsonResponse(['message' => 'deleted'], Response::HTTP_OK);
     }
 }

@@ -1,11 +1,11 @@
 document.getElementById('markdown-input').addEventListener('input', function () {
     const input = this.value;
-    document.getElementById('markdown-content').innerHTML = marked.parse(input);
+    document.getElementById('markdown-content').innerHTML = marked.parse(input.replace(/---\s*title:\s*(.*?)\s*weight:\s*\d+\s*---/, '---\n$1\n---'));
 });
 
 window.addEventListener("DOMContentLoaded", function (event) {
     const input = document.getElementById('markdown-input').value;
-    document.getElementById('markdown-content').innerHTML = marked.parse(input);
+    document.getElementById('markdown-content').innerHTML = marked.parse(input.replace(/---\s*title:\s*(.*?)\s*weight:\s*\d+\s*---/, '---\n$1\n---'));
 });
 
 function save() {
@@ -14,7 +14,8 @@ function save() {
     xhr.addEventListener('load', () => {
         if (xhr.status === 200)
         {
-            document.location.href = 'http://localhost:1313/' + document.getElementById('markdown-path').value
+            console.log('http://localhost:1313/' + document.getElementById('markdown-path').value)
+            document.location.href = removeIndex('http://localhost:1313/' + document.getElementById('markdown-path').value)
         }
     });
     let data = {
@@ -23,4 +24,8 @@ function save() {
         originalPath: document.getElementById('original-path').value
     }
     xhr.send(JSON.stringify(data));
+}
+
+function removeIndex(str) {
+    return str.replace(/\/_index$/, '');
 }
