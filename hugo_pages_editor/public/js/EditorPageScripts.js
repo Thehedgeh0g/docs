@@ -26,5 +26,7 @@ function save() {
 }
 
 function removeIndex(str) {
-    return str.replace(/\/_index$/, '');
+    const titleMatch = str.match(/title:\s*"(.*?)"/);
+    const title = titleMatch[1];
+    return str.replace(/---[\s\S]*?---/, `---\n${title}\n---`);
 }
