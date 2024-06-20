@@ -14,8 +14,7 @@ function save() {
     xhr.addEventListener('load', () => {
         if (xhr.status === 200)
         {
-            console.log('http://localhost:1313/' + document.getElementById('markdown-path').value)
-            document.location.href = removeIndex('http://localhost:1313/' + document.getElementById('markdown-path').value)
+            document.location.href = removeIndex('http://playground.ispring.lan/' + document.getElementById('markdown-path').value)
         }
     });
     let data = {
