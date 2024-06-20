@@ -46,7 +46,6 @@
     {{ end -}}
     {{ with .CurrentSection.AlternativeOutputFormats.Get "print" -}}
     <a id="edit" href="{{ printf "%s%s" ($.Site.Params.editBaseURL) ($.Page.Path) }}" target="_blank"><i class="fa-solid fa-pen-to-square fa-fw"></i> {{ T "post_edit_this" }}</a>
-    <a href="{{ printf "%s%s" ($.Site.Params.deleteBaseURL) ($.Page.Path) }}" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Delete this page </a>
     <a href="{{ printf "%s" ($.Site.Params.editBaseURL) }}" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Create new page </a>
     {{ end }}
 </div>
