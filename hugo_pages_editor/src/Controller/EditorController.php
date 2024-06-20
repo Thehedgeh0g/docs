@@ -66,12 +66,30 @@ class EditorController extends AbstractController
     public function delete(Request $request): Response
     {
         $data = json_decode($request->getContent(), true);
+        $path = $data['path'];
         if (!isset($data['path']))
         {
             return new JsonResponse(['message' => 'not found'], Response::HTTP_BAD_REQUEST);
         }
+        try
+        {
+            $this->editorService->getFileData($path);
+            $this->editorService->deleteFile($path);
+        }
+        catch (\Throwable)
+        {
+            try
+            {
+                $path .= "/_index";
+                $this->editorService->getFileData($path);
+                $this->editorService->deleteFile($path);
+            }
+            catch (\Throwable)
+            {
+                return new JsonResponse(['message' => 'not found'], Response::HTTP_NOT_FOUND);
+            }
+        }
 
-        $this->editorService->deleteFile($data['path']);
         return new JsonResponse(['message' => 'deleted'], Response::HTTP_OK);
     }
 }
