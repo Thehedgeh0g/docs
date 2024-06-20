@@ -1,11 +1,11 @@
 document.getElementById('markdown-input').addEventListener('input', function () {
     const input = this.value;
-    document.getElementById('markdown-content').innerHTML = marked.parse(input.replace(/---\s*title:\s*(.*?)\s*weight:\s*\d+\s*---/, '---\n$1\n---'));
+    document.getElementById('markdown-content').innerHTML = marked.parse(removeIndex(input));
 });
 
 window.addEventListener("DOMContentLoaded", function (event) {
     const input = document.getElementById('markdown-input').value;
-    document.getElementById('markdown-content').innerHTML = marked.parse(input.replace(/---\s*title:\s*(.*?)\s*weight:\s*\d+\s*---/, '---\n$1\n---'));
+    document.getElementById('markdown-content').innerHTML = marked.parse(removeIndex(input));
 });
 
 function save() {
@@ -26,7 +26,7 @@ function save() {
 }
 
 function removeIndex(str) {
-    const titleMatch = str.match(/title:\s*"(.*?)"/);
-    const title = titleMatch[1];
+    const titleMatch = str.match(/\s*title:\s*(.*?)\s/)
+    const title = titleMatch[1]
     return str.replace(/---[\s\S]*?---/, `---\n${title}\n---`);
 }
