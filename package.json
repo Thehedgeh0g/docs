@@ -40,7 +40,7 @@
     "@symfony/ux-turbo": "file:vendor/symfony/ux-turbo/assets",
     "autoprefixer": "^10.4.14",
     "cross-env": "^7.0.3",
-    "hugo-extended": "0.127.0",
+    "hugo-extended": "0.128.0",
     "postcss-cli": "^11.0.0"
   },
   "private": true,
